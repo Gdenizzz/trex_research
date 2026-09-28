@@ -100,7 +100,7 @@ Kısacası SDLC, yazılımın geçtiği aşamaları; Scrum ve Kanban ise ekibin 
 
 **Platformlar arası çalışma ne demektir?** Aynı ASP.NET Core API kaynak kodu, uyumlu paketler ve yapılandırmayla Windows, Linux veya macOS üzerinde derlenip çalıştırılabilir; sunucu olarak Linux kullanmak mümkündür. Ancak her .NET uygulaması her işletim sisteminde çalışmaz. Örneğin WinForms ve WPF arayüzleri Windows’a özeldir; Windows’a özel bir kütüphane kullanan API de ek değişiklik olmadan Linux’ta çalışmayabilir
 
-> ![dotnet --info örneği](assets/dotnet--info.png)
+![dotnet --info örneği](gorseller/dotnet--info.png)
 
 SDK satırı derleme araçlarının sürümünü; OS Platform ve RID çalışılan işletim sistemini/mimariyi; runtimes satırları uygulamayı çalıştıracak kurulu bileşenleri gösterir. xxx ve x yer tutucudur; bu satırlar gerçekten alınmış terminal çıktısı değildir.
 
@@ -201,7 +201,7 @@ Küçük projelerde basit bir katmanlı yapı yeterli olur. İş kuralları karm
 
 | Katmanlı mimari | Clean Architecture |
 |---|---|
-| **[![Katmanlı mimari diyagramı](assets/katmanli-mimari.png)]** | **[![Clean Architecture diyagramı](assets/clean-architecture.png)]** |
+| ![Katmanlı mimari diyagramı](gorseller/katmanli-mimari.png) | ![Clean Architecture diyagramı](gorseller/clean-architecture.png) |
 
 ## 5. Veritabanı ve ORM
 
